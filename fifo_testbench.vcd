@@ -1,0 +1,150 @@
+$date
+	Fri Nov  1 20:48:13 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fifo $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var wire 16 # data_out [15:0] $end
+$var reg 1 $ clk $end
+$var reg 16 % data_in [15:0] $end
+$var reg 1 & rd_en $end
+$var reg 1 ' rst_n $end
+$var reg 1 ( wr_en $end
+$scope module uut $end
+$var wire 1 $ clk $end
+$var wire 16 ) data_in [15:0] $end
+$var wire 1 & rd_en $end
+$var wire 1 ' rst_n $end
+$var wire 1 ( wr_en $end
+$var reg 6 * count [5:0] $end
+$var reg 16 + data_out [15:0] $end
+$var reg 1 " empty $end
+$var reg 1 ! full $end
+$var reg 5 , rd_ptr [4:0] $end
+$var reg 5 - wr_ptr [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+0(
+0'
+0&
+b0 %
+0$
+b0 #
+1"
+0!
+$end
+#5000
+1$
+#10000
+0$
+b1010101111001101 %
+b1010101111001101 )
+1(
+1'
+#15000
+b10 *
+b10 -
+1$
+#20000
+0$
+b1001000110100 %
+b1001000110100 )
+#25000
+0"
+b100 *
+b100 -
+1$
+#30000
+0$
+0(
+#35000
+1$
+#40000
+0$
+1&
+#45000
+b10 *
+b10 ,
+b1010101111001101 #
+b1010101111001101 +
+1$
+#50000
+0$
+#55000
+b0 *
+b100 ,
+b1001000110100 #
+b1001000110100 +
+1$
+#60000
+0$
+0&
+#65000
+1"
+1$
+#70000
+0$
+b101011001111000 %
+b101011001111000 )
+1(
+#75000
+b10 *
+b110 -
+1$
+#80000
+0$
+b1001101010111100 %
+b1001101010111100 )
+#85000
+0"
+b100 *
+b1000 -
+1$
+#90000
+0$
+0(
+#95000
+1$
+#100000
+0$
+1&
+#105000
+b10 *
+b110 ,
+b101011001111000 #
+b101011001111000 +
+1$
+#110000
+0$
+#115000
+b0 *
+b1000 ,
+b1001101010111100 #
+b1001101010111100 +
+1$
+#120000
+0$
+#125000
+1"
+1$
+#130000
+0$
+0&
+#135000
+1$
+#140000
+0$
